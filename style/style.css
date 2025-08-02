@@ -20,27 +20,27 @@
     font-weight: bold;
 }
 
-.common-section-title{
+.common-section-title {
     font-weight: 600px;
     font-size: 36px;
 }
 
-.shoe-bag-container{
+.shoe-bag-container {
     background: rgb(244, 244, 244);
 }
 
-.shoes-backpack-section-title-parrent{
+.shoes-backpack-section-title-parrent {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.shoes-backpack-section-title-parrent p{
+.shoes-backpack-section-title-parrent p {
     font-size: 15px;
     color: #FF9D00;
 }
 
-.shoes-backpack-section-title-parrent h2{
+.shoes-backpack-section-title-parrent h2 {
     font-weight: bold;
     font-size: 36px;
 }
@@ -87,6 +87,38 @@ nav {
     font-size: 16px;
 }
 
+.about-li{
+    position: relative;
+}
+
+.dropdown-nav-item{
+    position: absolute;
+    top: 30%;
+    left: -50px;
+    padding: 5px 0px;
+    list-style: none;
+    background-color: white;
+    width: 130px;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    box-shadow: 7px 11px 42px -12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 11px 42px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 11px 42px -12px rgba(0, 0, 0, 0.75);
+    visibility: hidden;
+    
+
+}
+
+.about-li:hover .dropdown-nav-item{
+    visibility: visible;
+    top: 100%;
+    transition: .5s;
+}
+
+.dropdown-nav-item li{
+    margin: 5px 0px;
+}
+
 /* banner style */
 .banner {
     background-color: #FEEAE9;
@@ -126,9 +158,10 @@ nav {
 }
 
 /* categories style */
-.categories{
+.categories {
     margin: 64px auto;
 }
+
 .categories-card-container {
     display: flex;
     justify-content: space-between;
@@ -153,8 +186,8 @@ nav {
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%, rgb(255, 19, 111) 99.994%);
 }
 
-.categories-card-3{
-    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+.categories-card-3 {
+    background: linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%, rgb(63, 7, 248) 74.29%);
 }
 
 .categories-card h3 {
@@ -170,42 +203,45 @@ nav {
 
 /* shose bag style */
 
-.shoe-section{
+.shoe-section {
     padding: 50px 0px;
 }
 
-.shoe-card-container{
+.shoe-card-container {
     display: flex;
     justify-content: space-between;
     gap: 65px;
 }
 
-.shoe-card{
+.shoe-card {
     background-color: white;
     border-radius: 10px;
     text-align: center;
     padding: 25px;
+    box-shadow: 7px 11px 42px -12px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 7px 11px 42px -12px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 7px 11px 42px -12px rgba(0, 0, 0, 0.75);
 }
 
-.card-price{
+.card-price {
     display: block;
     font-weight: 600;
     font-size: 22px;
     margin-bottom: 12px;
 }
 
-.shoe-card img{
+.shoe-card img {
     width: 336px;
     height: 250px;
 }
 
-.shoe-card .panda-btn{
+.shoe-card .panda-btn {
     background: black;
 }
 
 /* footer section */
 
-.contact-us-parent{
+.contact-us-parent {
     background: rgb(255, 242, 241);
     text-align: center;
     padding: 25px 15px;
@@ -214,17 +250,18 @@ nav {
     height: 400px;
     align-content: center;
 }
-.contact-input-btn-parent input{
+
+.contact-input-btn-parent input {
     border: none;
     padding: 15px 150px 15px 10px;
 }
 
-.contact-input-btn-parent .panda-btn{
+.contact-input-btn-parent .panda-btn {
     border-top-left-radius: 0px;
-    border-bottom-left-radius:0px ;
+    border-bottom-left-radius: 0px;
     padding: 15px 30px;
 }
 
-.contact-us-parent p{
-   color: rgb(78, 78, 78);
+.contact-us-parent p {
+    color: rgb(78, 78, 78);
 }
